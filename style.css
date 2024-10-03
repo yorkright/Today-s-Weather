@@ -149,3 +149,82 @@ nav li {
     color: #ff0000;
 
   }
+
+  @media (max-width: 480px) {
+    .card {
+      width: 100%;
+      margin: 50px auto 0;
+    }
+  
+    .serach {
+      flex-direction: column;
+    }
+  
+    .serach input {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .weather-icon {
+      width: 100px;
+      margin-top: 20px;
+    }
+  
+    .weather h1 {
+      font-size: 40px;
+    }
+  
+    .weather h2 {
+      font-size: 30px;
+    }
+  
+    .details {
+      flex-direction: column;
+    }
+  
+    .col {
+      margin-bottom: 20px;
+    }
+  
+    .col img {
+      width: 30px;
+    }
+  
+    .humidity, .wind {
+      width: 20px;
+    }
+  
+    header {
+      padding: 10px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav li {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    button.btn {
+      font-size: 20px;
+      
+    }
+  }
+  
+  /* Tablet devices (max-width: 768px) */
+  
+  @media (max-width: 768px) {
+    .card {
+      width: 80%;
+      margin: 50px auto 0;
+    }
+  
+    .serach {
+      flex-direction: column;
+    }
+  
+  
+  
+  }  
